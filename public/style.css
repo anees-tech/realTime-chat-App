@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Fira Code;
+}
+
+body {
+    left: 32%;
+    max-width: 505px;
+    min-width: 500px;
+    position: absolute;
+    min-height: 100vh;
+    /* overflow: hidden */
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    border-radius: 13px;
+}
+
+.main {
+    display: block;
+}
+
+nav {
+    background-color: bisque;
+    width: 100%;
+    min-width: 600px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+nav .upperNav {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 10px;
+}
+
+.center-box {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    min-height: 300px;
+    overflow-y: scroll;
+    max-height: 500px;
+    overflow-y: auto;
+    background-color: #dddddd;
+}
+
+.center-box .messages {
+    border: 1px solid #533cfe;
+    padding: 10px;
+    margin: 10px;
+    background-color: blueviolet;
+    max-width: 50%;
+}
+
+.center-box .messages p {
+    font-size: 0.73rem;
+    text-align: start;
+}
+
+.center-box .messages .userID {
+    font-size: 0.90rem;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.center-box .recieved {
+    float: left;
+}
+
+.center-box .sent {
+    float: right;
+    margin-left: 50%;
+    background-color: #24efcd;
+}
+
+.bottom-section {
+    display: inline-flex;
+    width: 100%;
+}
+
+.bottom-section textarea {
+    outline: none;
+    border-radius: none;
+    width: 100%;
+    font-size: 1rem;
+    padding: 17px 8px;
+    text-decoration: none;
+    background-color: #f8f8f8de;
+    position: sticky;
+}

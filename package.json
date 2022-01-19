@@ -1,0 +1,17 @@
+{
+    "name": "realtime-web-app-using-node-js",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "MyApp": "nodemon server"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.2",
+        "nodemon": "^2.0.15",
+        "socket.io": "^4.4.1"
+    }
+}
