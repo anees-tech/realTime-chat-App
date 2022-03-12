@@ -12,4 +12,6 @@ Installation
 1: Install NodeJs.
 2: Type "npm init".
 3: Install Socket.io In parent directory. 
-4: Install 
+4: Install Nothing.
+5:just start Nodemon Server and Lets gooooo.
+6: For Your First Chat Open Two Server in Two Different Windows ( IMeaNotOperatingSystemJustTwoChromeWindows )...
